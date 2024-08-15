@@ -1,0 +1,70 @@
+* {
+    margin: 0;
+    padding: 0;
+    
+}
+
+.container {
+    display: flex;
+    height: 100vh;
+    padding: 15px;
+    background-color: #ccc;
+}
+
+.box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 90px;
+    font-weight: bold;
+    margin: 15px;
+    font-family: cursive;
+    
+}
+
+.box1 {
+    background-color: #ff6f6f;
+    width: 30%;
+    height: 94%;
+}
+
+.column {
+    display: flex;
+    flex-direction: column;
+    width: 67%;
+}
+
+.box2 {
+    background-color: #ccff66;
+    height: 30%;
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+    height: 70%; /* This row will take up the remaining height */
+}
+
+.box3 {
+    background-color: #ff99ff;
+    width: 55%; /* Box 3 will take 60% width */
+    height: 90%; /* Height will be 100% of the row */
+    
+    padding-right: 15px;
+}
+
+.column-split {
+    display: flex;
+    flex-direction: column;
+    width: 40%; /* Column-split will take 40% width */
+    height: 96%;
+}
+
+.box4a, .box4b {
+    background-color: #9999ff;
+    
+    margin: 12px 8px;
+    height: 50%;
+}
+
